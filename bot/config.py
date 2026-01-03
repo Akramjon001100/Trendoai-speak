@@ -18,5 +18,5 @@ PRICES = {
     "monthly": 150  # 150 Stars ~ $3
 }
 
-# Database path
-DATABASE_PATH = "bot/database/trendospeak.db"
+# Database path (use /tmp on Render, local path for development)
+DATABASE_PATH = os.getenv("DATABASE_PATH", "/tmp/trendospeak.db")
