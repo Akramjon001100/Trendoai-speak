@@ -1,0 +1,7 @@
+{
+  "name": " TrendoaiSpeak - Uzbek English Tutor",
+  "description": "A bilingual AI English tutor for Uzbek speakers using Gemini Live API. Designed for beginners with real-time voice interaction.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

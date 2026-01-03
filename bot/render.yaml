@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: trendospeak-bot
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python main.py
+    envVars:
+      - key: BOT_TOKEN
+        sync: false
+      - key: ADMIN_IDS
+        sync: false
+      - key: MINI_APP_URL
+        value: https://trendoaispeak-uzbek-english-tutor.vercel.app
